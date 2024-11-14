@@ -185,3 +185,19 @@ footer img {
     width: 40px;
     height: 40px;
 }
+.pics{
+    width: 200px;
+    height: 300px;
+    display: grid;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.works{
+    display:flex;   
+}
+.pictures{
+    display: grid;
+}
+.pictures2{
+    display: flex;
+}
