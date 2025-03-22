@@ -201,3 +201,126 @@ footer img {
 .pictures2{
     display: flex;
 }
+p{
+    color: blue;
+    font-size: 20px;
+    margin: 10px;
+    text-align: justify;
+    padding: 20px;
+
+}
+span{
+    color:blue;
+    font-size: 16px;
+    margin: 10px;
+    text-align: justify;
+    padding: 20px;
+   
+}
+h1{
+    color: blue;
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    .navlinks{
+        display: none;
+    }
+    nav{
+        justify-content: space-between;
+    }
+    .logo-container img{
+        width: 30px;
+        height: 30px;
+    }
+    .logo-container h2{
+        font-size: 20px;
+    }
+    .banner-text h1{
+        font-size: 50px;
+    }
+    .banner-text p{
+        font-size: 15px;
+    }
+    .banner-text button{
+        font-size: 12px;
+    }
+    .about{
+        flex-direction: column;
+        padding: 50px;
+    }
+    .mask img{
+        width: 300px;
+        height: 300px;
+        margin-right: 0;
+    }
+    .intro h1{
+        font-size: 30px;
+    }
+    .about h1{
+        font-size: 50px;
+    }
+    .about p{
+        font-size: 15px;
+    }
+    .about a{
+        padding: 10px 20px;
+    }
+    .services{
+        grid-template-columns: auto;
+    }
+    .services h2{
+        font-size: 30px;
+    }
+    .services img{
+        width: 300px;
+    }
+    .list h3{
+        font-size: 20px;
+    }
+    .list p{
+        font-size: 12px;
+    }
+    .list img{
+        width: 15px;
+        height: 15px;
+    }
+    .cta{
+        padding: 50px;
+    }
+    .cta-text h2{
+        font-size: 30px;
+    }
+    .cta-text p{
+        font-size: 15px;
+    }
+    .footer{
+        padding: 20px;
+    }
+    .footer img{
+        width: 30px;
+        height: 30px;
+    }
+    .pics{
+        width: 150px;
+        height: 250px;
+    }
+    .works{
+        flex-direction: column;
+    }
+    .pictures{
+        display: flex;
+    }
+    .pictures2{
+        display: flex;
+    }
+    p{
+        font-size: 15px;
+    }
+    span{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 50px;
+    }}
