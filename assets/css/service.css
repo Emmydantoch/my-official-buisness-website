@@ -1,0 +1,87 @@
+/* Service page styles: modern + classic mix */
+
+.services-page {
+  margin: 18px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: var(--white-2);
+  font-family: var(--ff-poppins);
+}
+
+.services-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 18px;
+  border-radius: 16px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(0,0,0,0.05));
+  border: 1px solid rgba(255,255,255,0.04);
+  margin-bottom: 18px;
+}
+
+.services-hero .hero-inner { max-width: 900px; text-align: center; }
+.hero-title { font-size: 36px; letter-spacing: -0.02em; margin-bottom: 8px; color: var(--white-1); }
+.hero-sub { color: var(--light-gray-70); font-size: 16px; margin-bottom: 14px; }
+
+.btn-primary,
+.btn-ghost {
+  display: inline-block;
+  padding: 10px 14px;
+  border-radius: 10px;
+  font-weight: 600;
+  transition: all 180ms ease;
+}
+
+.btn-primary {
+  background: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
+  box-shadow: var(--shadow-1);
+}
+
+.btn-ghost {
+  border: 1px solid rgba(255,255,255,0.06);
+  color: var(--white-2);
+  margin-left: 8px;
+}
+
+.services-intro { margin-bottom: 18px; }
+.services-intro .muted { color: var(--light-gray-70); line-height: 1.6; }
+
+.services-grid-wrapper { margin-top: 18px; }
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+  padding: 0;
+}
+
+.service-card {
+  background: linear-gradient(180deg, var(--eerie-black-1), var(--eerie-black-2));
+  border-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-2);
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
+.service-media { width: 100%; height: 160px; overflow: hidden; background: #111; }
+.service-media img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+.service-body { padding: 14px; display: flex; flex-direction: column; gap: 8px; }
+.service-title { font-size: 18px; color: var(--white-1); margin-bottom: 4px; }
+.service-body p { color: var(--light-gray-70); font-size: 14px; margin-bottom: 6px; }
+.service-list { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+.service-list li { font-size: 13px; color: var(--light-gray-70); background: rgba(255,255,255,0.02); padding: 6px 8px; border-radius: 8px; }
+
+.services-footer { margin-top: 20px; padding: 18px; text-align: center; }
+.services-footer .muted { color: var(--light-gray-70); }
+
+/* subtle classic touch: slightly larger first letter on hero */
+.hero-title::first-letter { font-size: 48px; font-weight: 700; color: var(--vegas-gold); }
+
+@media (max-width: 600px) {
+  .hero-title { font-size: 26px; }
+  .service-media { height: 140px; }
+}

@@ -1,125 +1,160 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Real cloud computer Institute and communication</title>
-        <link rel="stylesheet" href="styles.css">
-       
-        
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Realcloud — Home</title>
+        <link rel="stylesheet" href="assets/css/vars.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="assets/css/index.css" />
+        <style>
+        /* Features marquee — small local stylesheet for continuous horizontal scroll */
+        .marquee { overflow: hidden; }
+        .marquee-track { display: flex; gap: 1.25rem; align-items: stretch; white-space: nowrap; }
+        .marquee-track .feature-card { flex: 0 0 auto; width: 240px; }
+        .marquee-track { animation: marquee var(--marquee-duration, 18s) linear infinite; }
+        .marquee-track:hover { animation-play-state: paused; }
+        @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+        @media (prefers-reduced-motion: reduce) { .marquee-track { animation: none; } }
+        </style>
     </head>
     <body>
-        <nav>
-            <div class="logo-container">
-                <img src="images/RC LOGO.jpg">
-                <h2>Real cloud computer Institute and communication</h2>
-            </div>
-            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-                
-            <div class="navlinks" id="navlinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="service.html">Services</a>
-                <a href="contact.html">Contact</a>
-            </div>
-        </nav>
-        <div class="banner">
-            <div class="banner-text">
-                <h1>A Home of Technological Advancement</h1>
-                <p>We are experienced, confident, God fearing and dedicated proffesionals that strives to actualize a positive result 
-                with the use of our skills to bring growth into an organization. Creative in programming, 
-                such as web designing, mobile app applications etc. With HTML, CSS, JAVASCRIPT, and REACT, we can build a high-performing, 
-                responsive website including major e-commerce sites with an excellent user experience enhancement. </p>
-                <div>
-                    <button>Explore</button>
-                    <button>contact us</button>
+        <header class="site-header">
+            <div class="header-inner">
+                <div class="logo-container">
+                    <img src="images/RC LOGO.jpg" alt="Realcloud logo" />
+                    <h1 class="site-name">Realcloud Institute</h1>
                 </div>
+                <nav class="main-nav">
+                    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+                    <div class="navlinks">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About</a>
+                        <a href="service.html">Services</a>
+                    </div>
+                </nav>
             </div>
-            
-        </div>  
-        <!--About Us Section-->
-        <section class="about">
-            <div class="mask">
-                <img src="images/back.png" alt="tech boy"/>
-            </div>
-          
-            <div class="">
-                <h1>speed up your Technological career</h1>
-                <p>At Realcloud Institute, our courses are taught by seasoned skills and proven expertise, 
-                which will inturn give students the leverage of learning  with speed and at ease  .</p>
-                <a href="#">learn more</a>
-            </div>
-                
-        </section>
-        <!--Services-->
-        <section class="services">
-            <div>
-                <h2>why choose us</h2>
-                <div class="list">
-                    <img src="images/rounded triangle.png" />
-                    <div>
-                        <h3>Hands on learning:</h3>
-                        <p>we deliver practical experience through engaging, real-world projects that prepare students for industry challenges.</p>
+        </header>
+
+        <main>
+            <section class="hero reveal">
+                <div class="hero-inner">
+                    <h2>Home of Technological Advancement</h2>
+                    <p>We teach practical, industry-ready skills — web, mobile and multimedia — with thoughtful design and measurable outcomes.</p>
+                    <p class="hero-actions"><a class="btn-primary" href="service.html">Our Services</a> <a class="btn-ghost" href="about.html">Learn more</a></p>
+                </div>
+                <div class="hero-media" aria-hidden="true">
+                    <img src="images/back.png" alt="Decorative tech" data-parallax="0.15"/>
+                </div>
+            </section>
+
+            <section class="features reveal">
+                <div class="marquee" aria-label="Key features" role="region">
+                    <div class="marquee-track" role="list">
+                        <article class="feature-card" role="listitem">
+                            <img src="images/coperate.jpg" alt="Hands on learning" data-parallax="0.08" />
+                            <h3>Hands-on Learning</h3>
+                            <p>Real projects and mentorship to <br> prepare you for real roles.</p>
+                        </article>
+
+                        <article class="feature-card" role="listitem">
+                            <img src="images/data.png" alt="Project based" data-parallax="0.08" />
+                            <h3>Project-Based Curriculum</h3>
+                            <p>Build portfolio-ready work through <br> guided contracts and challenges.</p>
+                        </article>
+
+                        <article class="feature-card" role="listitem">
+                            <img src="images/hand.png" alt="Career opportunities" data-parallax="0.08" />
+                            <h3>Career Support</h3>
+                            <p>Placement guidance, interviews and <br> networking to start your career <br> stronger.</p>
+                        </article>
+
+                        <!-- duplicate items for seamless loop -->
+                        <article class="feature-card" aria-hidden="true">
+                            <img src="images/coperate.jpg" alt="" data-parallax="0.08" />
+                            <h3>Hands-on Learning</h3>
+                            <p>Real projects and mentorship to <br> prepare you for real roles.</p>
+                        </article>
+
+                        <article class="feature-card" aria-hidden="true">
+                            <img src="images/data.png" alt="" data-parallax="0.08" />
+                            <h3>Project-Based Curriculum</h3>
+                            <p>Build portfolio-ready work through <br>guided contracts and challenges.</p>
+                        </article>
+
+                        <article class="feature-card" aria-hidden="true">
+                            <img src="images/hand.png" alt="" data-parallax="0.08" />
+                            <h3>Career Support</h3>
+                            <p>Placement guidance, interviews and <br> networking to start your career <br> stronger.</p>
+                        </article>
                     </div>
                 </div>
-                <div class="list">
-                    <img src="images/rounded triangle.png" />
-                    <div>
-                        <h3>Project-Based Curriculum:</h3>
-                        <p>we build projects on buisness contracts and work on real-life projects that enhance your 
-                        skills and build your portfolio as a student.</p>
+            </section>
+
+            <section class="cta reveal">
+                <div class="cta-inner">
+                    <h3>Ready to start?</h3>
+                    <h3>Explore courses, request a quote, or ask for a custom training plan.</h3>
+                    <p><a class="btn-primary" href="contact.html">Contact Us</a></p>
+                </div>
+            </section>
+        </main>
+
+        <script src="assets/js/index.js" defer></script>
+        <!-- Site footer (modern + classic concept) -->
+        <footer class="site-footer">
+            <div class="footer-inner">
+                <div class="footer-grid">
+                    <div class="footer-col">
+                        <h4>About the store</h4>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">Become a customer</a></li>
+                            <li><a href="about.html">About us</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="service.html">Return policy</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Language</h4>
+                        <div class="language-list">
+                            <button class="lang">Deutsch</button>
+                            <button class="lang active">English</button>
+                            <button class="lang">Español</button>
+                            <button class="lang">Français</button>
+                            <button class="lang">Indonesian</button>
+                            <button class="lang">Italian</button>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Get in touch</h4>
+                        <div class="socials">
+                            <a href="https://www.facebook.com/real.cloud.2025" aria-label="Facebook" class="social-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 12.07C22 6.48 17.52 2 11.93 2S2 6.48 2 12.07c0 4.98 3.66 9.12 8.44 9.95v-7.05H8.5v-2.9h2V9.41c0-2 1.18-3.1 2.98-3.1.86 0 1.76.15 1.76.15v1.94h-1c-.98 0-1.28.61-1.28 1.24v1.48h2.18l-.35 2.9h-1.83V22C18.34 21.19 22 17.05 22 12.07z" fill="currentColor"/></svg>
+                            </a>
+                            <a href="https://x.com/Cloud1Real7844" aria-label="Twitter" class="social-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 5.92c-.63.28-1.31.48-2.02.57.73-.44 1.29-1.14 1.55-1.98-.68.4-1.43.7-2.23.86C18.78 4.5 17.74 4 16.58 4c-1.6 0-2.9 1.3-2.9 2.9 0 .23.03.45.07.66-2.41-.12-4.55-1.28-5.98-3.05-.25.43-.39.94-.39 1.48 0 1.02.52 1.92 1.31 2.45-.48-.02-.94-.15-1.34-.37v.04c0 1.42 1.01 2.6 2.36 2.88-.25.07-.51.11-.78.11-.19 0-.38-.02-.56-.06.38 1.14 1.47 1.97 2.76 1.99C9.5 16.9 8 17.5 6.36 17.5c-.29 0-.57-.02-.85-.05 1.63 1.05 3.57 1.66 5.66 1.66 6.8 0 10.52-5.64 10.52-10.53v-.48c.72-.52 1.34-1.17 1.84-1.91-.66.29-1.36.48-2.09.57z" fill="currentColor"/></svg>
+                            </a>
+                            <a href="http://www.linkedin.com/in/tochukwu-daniel-71bb4237a" aria-label="LinkedIn" class="social-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 3H4a1 1 0 00-1 1v16a1 1 0 001 1h16a1 1 0 001-1V4a1 1 0 00-1-1zM8.5 18H6.25V10.75H8.5V18zM7.37 9.62a1.38 1.38 0 110-2.75 1.38 1.38 0 010 2.75zM19.75 18H17.5v-3.5c0-.83-.02-1.9-1.16-1.9-1.16 0-1.34.9-1.34 1.83V18H11.5V10.75h2.07v1h.03c.28-.53.98-1.07 2.02-1.07 2.16 0 2.56 1.42 2.56 3.27V18z" fill="currentColor"/></svg>
+                            </a>
+                        </div>
                     </div>
                 </div>
-                <div class="list">
-                    <img src="images/rounded triangle.png" />
-                    <div>
-                        <h3>Expert Mentorship:</h3>
-                        <p>We offer guidance and support to students, as we are dedicated to your success.</p>
+
+                <div class="footer-bottom">
+                    <div class="footer-meta">
+                        <a href="#">Terms of purchase</a>
+                        <a href="#">Security and privacy</a>
+                        <a href="#">Newsletter</a>
                     </div>
-                </div>
-                <div class="list">
-                    <img src="images/rounded triangle.png" />
-                    <div>
-                        <h3>Career Opportunities:</h3>
-                        <p>We can also provide students with updates on specific job oppurtunities and 
-                        platforms that will aid them get jobs on time.</p>
-                    </div>
+                    <div class="copyright">© <span id="year"></span> Realcloud</div>
                 </div>
             </div>
-
-            <div>
-                <img src="images/coperate.jpg"/>
-            </div>
-        </section>
-
-        <!-- call to action -->
-        <section class="cta">
-            <div class="cta-text">
-                <div>
-                    <h2>Get ready to dive into the world of progressive technology?</h2>
-                    <p>If you love to transition into tech, we've got you covered. At Realcloud, we focus 
-                        on industral-ready skills that prepare you for the future of work. We also provide 
-                        you with valuable resources such as career guidance, job placement assistance, or 
-                        networking opportunities to help you advance in your career.</p>
-                    <a href="#">Browse all courses</a>
-                </div>
-                <div>
-                   <img src="./images/hand.png" /> 
-                </div>
-
-            </div>
-                    
-        </section> 
-        
-        <script>
-            document.addEventListener('DOMContentLoaded', () => {
-            const menuToggle = document.querySelector('.menu-toggle');
-            const navLinks = document.querySelector('.navlinks');
-
-        menuToggle.addEventListener('click', () => {
-        navLinks.classList.toggle('active');
-    });
-});
-          </script>  
-          </body>
-    
-    <footer></footer>
+        </footer>
+        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    </body>
 </html>

@@ -1,90 +1,1576 @@
- <!DOCTYPE html>
- <html lang="en">
- <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
-   <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="about.css">
- </head>
 
- <body>
-        <nav>
-            <div class="logo-container">
-                <img src="images/RC LOGO.jpg">
-                <h2>Real cloud computer Institute and communication</h2>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/vars.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src=".\assets\images\pass_tochpng.png" alt="Daniel Emmanuel" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Daniel Emmanuel">Daniel Emmanuel</h1>
+
+          <p class="title">Software/AI Engineer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
             </div>
-            <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-                
-            <div class="navlinks" id="navlinks">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="service.html">Services</a>
-                <a href="contact.html">Contact</a>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="realcloud50@gmail.com" class="contact-link">realcloud50@gmail.com</a>
+              <a href="danimmanueltoch@gmail.com" class="contact-link">danimmanueltoch@gmail.com</a>
+            
             </div>
-        </nav>
-   
-  <h1>Care to Know?</h1>
- <p>Realcloud emacipated on this journey in the year 2016, where we started with a cybercafe and sales of phone accessories, 
-  we offered services like printing, photocopy, etc, building seminars and project topics for several departments,
-  trainings for students under computer fundamentals, graphics and issueance of certificates with the vision to keep advancing to the peak of our tech career.</p>
-  
-  <div class="banner"> <img src="images/realcloud ban1.JPG" alt="cloud"></div>
-  <p>Below are some graphics designs that we delivered to our customers </p> 
 
-  
-    <div class="works">
-      <div>
-        <img class="pics" src="images/wed forever.jpg">
-        <span>Weding fliers</span> 
-      </div>
-      <div>
-        <img class="pics" src="images/6 by 4 new nonies.JPG">
-        <span>Resturant Banners</span> 
-      </div> 
-      <div>
-        <img class="pics" src="images/Doris hairs.JPG">
-        <span>Hairstylist Fliers</span> 
-      </div>
-      <div>
-        <img class="pics" src="images/DONE FINALLY.JPG">
-        <span>Hairstylist Banners</span> 
-      </div>  
-      <div>
-        <img class="pics" src="images/burial banner.JPG">
-        <span>Burial Banners</span> 
-      </div>
-      <div>
-        <img class="pics" src="images/KESSY.JPG">
-        <span>Communication Fliers</span> 
-      </div>    
-  
-        <div>
-          <img class="pics" src="images/ukj films logo.jpg">
-          <span>Logo Designs</span> 
-        </div>
-        <div>
-          <img class="pics" src="images/hair logo.jpg">
-          <span>Logo Designs</span> 
-        </div> 
-        <div>
-          <img class="pics" src="images/PUH HEALTH.JPG">
-          <span>Departmental Banner</span> 
-        </div>
-        <div>
-          <img class="pics" src="images/convocation amend.JPG">
-          <span>Convocation Enlargement</span> 
-        </div>  
-        <div>
-          <img class="pics" src="images/certficte sch.JPG">
-          <span>School Certficte</span> 
-        </div>
-        <div>
-          <img class="pics" src="images/COVER.JPG">
-          <span>Brochures</span> 
-        </div> 
-   </div>
+          </li>
 
- </body>
- </html>
- 
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+234-8141361935" class="contact-link">(234) 8141-361-935</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Year of Experience</p>
+
+              <time datetime="2022-01">January, 2022</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ado-Ekiti, Nigeria</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/real.cloud.2025" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="http://www.linkedin.com/in/tochukwu-daniel-71bb4237a" class="social-link" aria-label="LinkedIn">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Emmydantoch" class="social-link">
+              <ion-icon name="GitHub"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://x.com/home" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/tobicotomany?igsh=ZXd2NWRmb2xkMHNs" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a class="navbar-link" href="index.html">Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            “I am a Software and AI Engineer passionate about building intelligent, scalable systems. I specialize in transforming complex challenges into simple, intuitive, and efficient solutions. With a strong background in UI/UX thinking, I design and develop applications that are not only powerful but also beautifully user friendly.”
+      
+          </p>
+
+          <p>
+            “I create software and AI-powered solutions that balance functionality with beautiful, intuitive design. I focus on making your product smart, easy to use, and visually engaging, while capturing the essence of your brand. My mission is to deliver systems that communicate your identity clearly and creatively. I’ve worked on innovative digital experiences for leading brands.”
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality web development done at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of  AI projects at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title"> Graphics Designer/ Animation </h4>
+
+                <p class="service-item-text">
+                  I make high-quality  Graphics of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Mr Femi" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mr Femi (MD, Kinplus Technology)</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    “Mr Emmanuel was hired to create a full corporate identity, and we were extremely pleased with the work delivered. He has a great deal of experience and pays close attention to the needs of his clients. His creativity, professionalism, and ability to understand our brand vision made the entire process smooth and enjoyable. The final outcome exceeded our expectations, giving our company a strong and memorable identity. We highly recommend his services.” call: 07032684859.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Mrs Anthonia" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mrs Anthonia (MD, New Horizons) </h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    “Working with Mr Emmanuel on our corporate identity was an outstanding experience. He took the time to understand our goals and translated them into a clean, modern, and professional brand image. His attention to detail, creativity, and commitment to quality truly set him apart. The results were impressive and perfectly aligned with our vision. We are delighted with his work and would gladly collaborate with him again.” call:08125990505.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.“Collaborating with Mr Emmanuel was a wonderful experience. From the very first meeting, he demonstrated professionalism, patience, and a remarkable ability to interpret our ideas. He transformed our scattered concepts into a cohesive and visually engaging corporate identity. His passion for design and his commitment to delivering the best possible outcome were evident throughout the project. We couldn’t be happier with the results and confidently recommend his services to anyone seeking top-quality creative work.”
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    “Mr Emmanuel delivered exceptional work on our corporate identity project. His creativity, precision, and deep understanding of brand communication helped us achieve a clean and powerful identity. He is reliable, talented, and truly dedicated to client satisfaction. Highly recommended.”
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Mr Femi" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Mr Femi (MD, Kinplus Tech) </h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  “Mr Emmanuel exceeded our expectations in developing our corporate identity. His strategic thinking, creative approach, and ability to capture the essence of our brand were truly remarkable. He delivered a professional, cohesive, and visually stunning identity that elevated our company’s presence. His communication was clear, his process was smooth, and his commitment to excellence was evident in every detail. We are fully satisfied with his work and highly endorse his services.” call: 07032684859.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Abia State University</h4>
+
+              <span>2019 — 2022</span>
+
+              <p class="timeline-text">
+                Bachelor of Science (B.sc) in Computer Science.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Kinplus Technology</h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                Computer Professional council of Nigeria (CPN).
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Abia State University</h4>
+
+              <span>2020 — 2021</span>
+
+              <p class="timeline-text">
+                Industrial Training ABSU  Geography Information Science (G.I.S)                                
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Developer</h4>
+
+              <span>2025 — Present</span>
+
+              <p class="timeline-text">
+              I built Key Projects
+
+              E-Commerce API Backend  (KINVID)<br>
+              ⭐ Used Django REST Framework, PostgreSQL, AWS EC2<br>
+              ⭐ Designed scalable product and order APIs with nested serializers.<br>
+              ⭐ Integrated Stripe for secure card payments.<br>
+              ⭐ Backend supports a frontend React app and serves 1000+ daily users.<br>
+              ⭐ Legislative Document Management System (In progress)<br>
+
+              CustomTkinter GUI + Django API (EKHA)<br>
+              ⭐ Building an interactive GUI app that connects to a Django-powered backend and web socket.<br>
+              ⭐ Enables document uploads, petitions, session summaries, and real-time notifications.<br>
+              ⭐ Supports role-based access for members, clerks, and admins.<br>
+
+              Pet Clinic Management System<br>
+              ⭐ Used Django, PostgreSQL, Bootstrap, DigitalOcean<br>
+              ⭐ Developed a full-stack clinic system with user roles (Admin, Vets, Pet Owners).<br>
+              ⭐ Created appointment scheduling, invoice generation, and treatment history modules.<br>
+              ⭐ Integrated secure payment handling using PayPal.<br>
+              ⭐ Deployed to a DigitalOcean Ubuntu server with domain configuration and HTTPS.<br>
+
+
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Software Tutor</h4>
+
+              <span>2022 — 2023</span>
+
+              <p class="timeline-text">
+                I taught Digital Marketing and Graphics Design to students at Real Cloud Computer Institute.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Developer</h4>
+
+              <span>2023 — 2024</span>
+
+              <p class="timeline-text">
+                Insructor at Century Gates Technology, where i taught students on python programming language, web development, with react Nodejs and AI development.  
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web development with React & Python</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design / Animation</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Mobile App</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Digital Marketing</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">UI/UX Design</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <!-- <!--
+        - #SERVICES
+      -->
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web Development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Mobile Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Graphic design / Animation</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Mobile applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Graphic design / Animation</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1768401524/AdminEgdepic_dh7zse.jpg" alt="AdminEgde" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EKHA, Built with Python, Django & Websocket  </h3>
+                <link>"https://emmydantoch.pythonanywhere.com/">
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1768405666/Magic_AI_kqyjpn.jpg" alt="Magic Ai" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Magic AI, Built with Python, Django, Websocket and open AI  </h3>
+                <link>"https://languge-companion.onrender.com">
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1767638145/house_assemblyshot_iipzwy.jpg" alt="EKHA" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">EKHA, Built with Python, Django & Websocket  </h3>
+                <link>"https://ekha.vercel.app/confidential-documents">
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://kinvid.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1767638163/kinvd_shot_si6qus.jpg" alt="KINVID" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">KINVID, built with React & Nodejs</h3>
+                <link>"https://kinvid.vercel.app/">
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://kinvid.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1768399927/E-mall_wflaiq.jpg" alt="eMall" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">eMall, built with Django and frontend Bootstrap </h3>
+                <link>"https://github.com/Emmydantoch/eMall.git">
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://kinvid.vercel.app/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1768405580/Eccomas_pic_q3w2lu.jpg" alt="Ecommas" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Ecommas, built with Django and frontend Bootstrap </h3>
+                <link>"https://github.com/Emmydantoch/Ecommz.git">
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Mobile applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Mobile applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Mobile applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Mobile applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Mobile applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Mobile applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498315/PUH_HEALTH_j3mebh.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498302/convocation_amend_elatf5.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498303/brochure_nj35ge.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498300/Doris_hairs_d3ymda.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498301/wed_forever_ssvdqs.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498300/DONE_FINALLY_jlt0qr.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498298/hair_logo_oxrukk.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498299/ukj_films_logo_inmkqs.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498041/DIVINE_SWIFT_o8dm1n.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766498026/CENTURY_GATEWAY_bngmtm.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766497830/realcloud_ban1_becj4l.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766504696/dataplan_a8vyxy.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766504686/sweet_nonies_vcaym0.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766504684/idcard_icpo7z.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766504660/lagacy_builders_ydqzvu.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766504678/award_frame_n3ypkg.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="Graphic design / Animation">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="https://res.cloudinary.com/dnd77hvnv/image/upload/v1766504678/child_dedication_d16hjt.jpg" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Graphic design / Animation</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    The truth is that the architect of this happiness explained how life is meant to be lived.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    But when we look closely, in our free time, we are free to choose what suits us best.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                   No one is guilty of wrongdoing; rather, each of us exercises our body and mind responsibly.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    To a small extent, everyone has the right to try and work hard to achieve something.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    This leads to great satisfaction, even though it requires time, effort, and sometimes discomfort.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    There is nothing that truly prevents us from choosing what brings the greatest benefit and joy.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>  
