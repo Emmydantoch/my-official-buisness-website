@@ -325,18 +325,21 @@ footer img {
   align-items: start;
 }
 .works > div{
-  background: #1f1f1f;
-  padding: 14px;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
   border-radius: 12px;
+  background: #1f1f1f;
   display: flex;
   flex-direction: column;
   gap: 10px;
   color: #eee;
   box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+  padding: 0; /* Remove padding to prevent expansion */
 }
 .works img.pics{
   width: 100%;
-  height: 170px;
+  height: 100%;
   object-fit: cover;
   border-radius: 8px;
   display: block;
@@ -718,4 +721,23 @@ footer img {
   background: rgba(220,80,80,0.12);
   color: #ffd6d6;
 }
+/* Portfolio image container */
+.portfolio-card, .portfolio-image-container {
+  width: 320px;         /* or your preferred width */
+  height: 200px;        /* or your preferred height */
+  overflow: hidden;
+  border-radius: 16px;  /* for rounded corners */
+  background: #181818;  /* optional: for a dark background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 
+/* Portfolio images */
+.portfolio-card img, .portfolio-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
