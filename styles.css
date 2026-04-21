@@ -63,24 +63,71 @@ nav {
   /* Responsive: Stack on small screens */
   @media (max-width: 768px) {
     nav {
+      padding: 20px !important;
+    }
+
+    .main-nav {
       flex-direction: column;
-      align-items: flex-start;
+      align-items: stretch;
+      padding: 0;
+      position: relative;
+      width: 100%;
+      gap: 0;
     }
-  
+
+    .menu-toggle {
+      display: block !important;
+      margin-left: auto;
+      background-color: #0d47a1;
+      border: none;
+      padding: 8px 15px;
+      border-radius: 5px;
+    }
+
+    .navlinks {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      margin-top: 1rem;
+    }
+
+    .navlinks.active {
+      display: flex !important;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: transparent;
+      border: none;
+      margin-top: 1rem;
+      padding: 0;
+      z-index: 10;
+      min-width: 200px;
+    }
+
     .navlinks a {
-      padding: 0.5rem 0;
-      border-top: 1px solid rgba(255,255,255,0.2);
+      padding: 0.75rem 1rem;
+      color: white;
+      text-decoration: none;
+      display: block;
+      border-bottom: 1px solid rgba(255,255,255,0.2);
+      transition: all 0.3s ease;
     }
-  
+
+    .navlinks a:hover {
+      background-color: rgba(255,255,255,0.1);
+      color: #ffca28;
+    }
+
     .logo-container h2 {
       font-size: 1rem;
     }
   }
 
-
 .logo-container {
     display: flex;
-    justify-content: space space-between;
+    justify-content: space-between;
     align-items: center;
     gap:10px;
     color:  brown
@@ -113,7 +160,6 @@ nav{
 
 /* Hide the menu toggle on large screens */
 .menu-toggle {
-    display: none;
     font-size: 2rem;
     background: linear-gradient(135deg, rgba(255,255,255,0.03), rgba(255,255,255,0.01));
     -webkit-backdrop-filter: blur(6px);
@@ -123,35 +169,6 @@ nav{
     padding: 6px 10px;
     border-radius: 10px;
     cursor: pointer;
-  }
-  
-  /* Responsive layout */
-  @media (max-width: 768px) {
-    nav {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  
-    .menu-toggle {
-      display: block;
-      margin-left: auto;
-    }
-  
-    .navlinks {
-      display: none;
-      flex-direction: column;
-      width: 100%;
-      margin-top: 1rem;
-    }
-  
-    .navlinks.active {
-      display: flex;
-    }
-  
-    .navlinks a {
-      padding: 0.75rem 0;
-      border-top: 1px solid rgba(255,255,255,0.2);
-    }
   }
   
 
@@ -435,9 +452,6 @@ h1{
     .navlinks{
         display: none;
     }
-    nav{
-        justify-content: space-between;
-    }
     .logo-container img{
         width: 30px;
         height: 30px;
@@ -642,8 +656,8 @@ footer img {
   background: linear-gradient(135deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
   -webkit-backdrop-filter: blur(6px);
   backdrop-filter: blur(6px);
-  color: var(--white-2, #e9eef6);
-  border: 1px solid rgba(255,255,255,0.04);
+  color: var(--white-2, #2d0346);
+  border: 1px solid rgba(255, 255, 255, 0.295);
   padding: 6px 10px;
   border-radius: 10px;
 }

@@ -4,7 +4,20 @@ document.addEventListener('DOMContentLoaded', () => {
   // nav toggle for small screens
   const menuToggle = document.querySelector('.menu-toggle');
   const navLinks = document.querySelector('.main-nav .navlinks');
-  if (menuToggle) menuToggle.addEventListener('click', () => navLinks && navLinks.classList.toggle('active'));
+  if (menuToggle) {
+    menuToggle.addEventListener('click', () => {
+      console.log('Menu toggle clicked');
+      if (navLinks) {
+        console.log('Before toggle:', navLinks.classList);
+        navLinks.classList.toggle('active');
+        console.log('After toggle:', navLinks.classList);
+      } else {
+        console.log('NavLinks not found');
+      }
+    });
+  } else {
+    console.log('Menu toggle not found');
+  }
 
   // Reveal on scroll using IntersectionObserver
   const reveals = document.querySelectorAll('.reveal');
